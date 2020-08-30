@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+.all{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  font-family: 'Alata';
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.container-all {
+  width: 80%;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: rgb(31, 30, 28);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.footer-text{
+  color: rgb(31, 29, 29);
+  margin-top:50px;
+  display: flex;
+  font-size: 30px;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.container-text{
+  display: flex;
+  flex-flow: column wrap;
+  padding: 10px 10px;
+}
+
+.container-text .text-quote{
+  align-self: center;
+  text-align: center;
+}
+
+.container-buttons{
+  padding: 15px;
+  width: 100%;
+  display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.container-buttons .buttons-social .social{
+  width: 100px;
+  height: 40px;
+  margin: 5px;
+  color: rgb(29, 26, 26);
+  border: 2px solid white;
+}
+
+.container-buttons .button-quote .quote{
+  font-weight: 500;
+  color: rgb(31, 29, 29);
+  border: 2px solid white;
+}
